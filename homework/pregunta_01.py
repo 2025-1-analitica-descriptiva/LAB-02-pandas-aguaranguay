@@ -15,11 +15,9 @@ def pregunta_01():
 
     """
     path0 = r"C:\Users\Alejo\Documents\GitHub\LAB-02-pandas-aguaranguay\files\input\tbl0.tsv"
-    path1 = r"C:\Users\Alejo\Documents\GitHub\LAB-02-pandas-aguaranguay\files\input\tbl1.tsv"
-    path2 = r"C:\Users\Alejo\Documents\GitHub\LAB-02-pandas-aguaranguay\files\input\tbl2.tsv"
+
 
     tbl0 = pd.read_csv(path0, sep='\t')
-    tbl1 = pd.read_csv(path1, sep='\t')
-    tbl2 = pd.read_csv(path2, sep='\t')
+
 
     return tbl0.shape[0]
